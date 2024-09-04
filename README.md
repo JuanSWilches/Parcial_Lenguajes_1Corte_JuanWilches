@@ -6,7 +6,8 @@ Primero, asegúrate de que has compilado el archivo LEX (lambda_analyzer.l) para
 flex lambda_analyzer.l
 gcc lex.yy.c -o lambda_analyzer -ll
 
-2. Ejecuta el Programa
+2. Ejecuta el Programa.
+3. 
 para ejecutar el programa escribe en la terminal lambda_analyzer con el archivo de texto como argumento:
 
 ./lambda_analyzer archivo.txt
